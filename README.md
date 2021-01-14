@@ -1,3 +1,4 @@
+![Python application test with Github Actions](https://github.com/MohammedGhawanni/DEMA-Proejct-2-CICD/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 # Overview
 
 This repository contains a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. 
