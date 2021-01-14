@@ -60,14 +60,12 @@ OR by downloading the code and running the `make_predict_azure_app.sh` script.
 * Screenshhot of passing tests that are displayed after running the `make all` command from the `Makefile`:
 ![Passing test after make all](https://i.ibb.co/5KGGHPw/Azure-cloud-shell-make-all-success.png)
 
-* Output of a test run
-![]()
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 ![Successful overview](https://i.ibb.co/M6PnfQ9/Azure-Pipeline-build-success.png)
 
 
-![Successful w/steps](https://i.ibb.co/ZcrFx0V/Azure-Pipeline-detailed-steps.png)
+![Successful w/steps](https://i.ibb.co/QYVTM4f/Azure-Pipeline-detailed-steps.png)
 
 
 * Screenshot of a Successful Azure webapp prediction run:
