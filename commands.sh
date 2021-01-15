@@ -1,0 +1,1 @@
+az webapp up -n udacity-p2-webapp
