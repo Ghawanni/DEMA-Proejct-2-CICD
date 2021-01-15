@@ -76,14 +76,18 @@ OR by downloading the code and running the `make_predict_azure_app.sh` script.
 ![Stream azure output](https://i.ibb.co/HKS6HVC/az-streamed-log.png)
 > 
 
-I'm editing this
-
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+We can improve the proejct by:
+* Adding more input and training the model to predict based on more criteria to extract more accuarte resutls
+* Mining different datasets on enhance the learning of the model
+* Add more city to get predictions for and targer more audiance
+* Allowing users to upload their own data and select the city to get prediction for a specific city
+* Containarize the code using Docker to make sure that the environemtn is consistent
+* Run the web app with Kubernetes to auto-scale and achieve 100% availability
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+Link to Demo on Youtube:
+https://youtu.be/-aWOl63K_SQ
 
