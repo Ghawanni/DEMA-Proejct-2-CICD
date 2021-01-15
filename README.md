@@ -76,6 +76,8 @@ OR by downloading the code and running the `make_predict_azure_app.sh` script.
 ![Stream azure output](https://i.ibb.co/HKS6HVC/az-streamed-log.png)
 > 
 
+I'm editing this
+
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
