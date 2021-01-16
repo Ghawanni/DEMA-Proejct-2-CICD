@@ -10,10 +10,8 @@ The project uses resources deployed on MS Azure public cloud. It also uses Azure
 The long-term plan is shown in the following Google Sheets sheet:
 https://docs.google.com/spreadsheets/d/1gQ7m3NZX-xmOiqWl9fuKwGExjOhcyd0NeUWKJfXKzL8/edit?usp=sharing
 
-
 For more info about the short-term (task level) tasks. You can visit the following Trello board:
-https://trello.com/invite/b/pskXPgkz/b3637345bdbffc0cc925305da729b507/ml-microservice
-
+https://trello.com/b/pskXPgkz/ml-microservice
 
 ## Instructions
 
@@ -55,11 +53,18 @@ OR by downloading the code and running the `make_predict_azure_app.sh` script.
 * Screenshot of the project running as an Azure webapp in Azure cloud:
 ![Running webapp in Azure Cloud Shell](https://i.ibb.co/gzWHvFB/Azure-webapp-running.png)
 
-* Screenchot of the project cloned into Azure Cloud Shell:
+
+* Screenshot of the application running locally:
+![Application running locally](https://i.ibb.co/fH8R7nH/Screenshot-application-running-locally.png)
+
+* Screenshot of the project cloned into Azure Cloud Shell:
 ![Clones into Azure Cloud Shell](https://i.ibb.co/Z1gFMpL/Azure-cloud-shell-repo-cloned.png)
 
 * Screenshhot of passing tests that are displayed after running the `make all` command from the `Makefile`:
 ![Passing test after make all](https://i.ibb.co/5KGGHPw/Azure-cloud-shell-make-all-success.png)
+
+* Successful run of a triggered GitHub actions CI build:
+![GitHub actions build success](https://i.ibb.co/Hrz3JTw/Github-Actions-CI.png)
 
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
@@ -74,16 +79,23 @@ OR by downloading the code and running the `make_predict_azure_app.sh` script.
 
 * Screenshot of output of streamed log files from deployed application
 ![Stream azure output](https://i.ibb.co/HKS6HVC/az-streamed-log.png)
-> 
 
-I'm editing this
 
+* Screenshots of Locust report:
+![report stats](https://i.ibb.co/TmRqnSV/Locust-report-stats.png)
+![report charts](https://i.ibb.co/pjKwWsb/Locust-report-charts.png)
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+We can improve the proejct by:
+* Adding more input and training the model to predict based on more criteria to extract more accuarte resutls
+* Mining different datasets on enhance the learning of the model
+* Add more city to get predictions for and targer more audiance
+* Allowing users to upload their own data and select the city to get prediction for a specific city
+* Containarize the code using Docker to make sure that the environemtn is consistent
+* Run the web app with Kubernetes to auto-scale and achieve 100% availability
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+Link to Demo on Youtube:
+https://youtu.be/-aWOl63K_SQ
 
